@@ -246,21 +246,18 @@ html.js .reveal.in {
 
 .burger {
   display: none;
-  flex-direction: column;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
   background: none;
   border: 0;
   cursor: pointer;
   padding: 14px 10px;
+  color: #fff;
 }
 
-.burger span {
+.burger svg {
   width: 24px;
-  height: 2px;
-  background: #fff;
-  border-radius: 2px;
-  transition: 0.3s;
+  height: 24px;
 }
 
 /* mobile menu */
@@ -414,7 +411,7 @@ html.js .reveal.in {
 .scroll-indicator svg {
   width: 22px;
   height: 22px;
-  fill: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 /* ============================================================
@@ -467,7 +464,7 @@ html.js .reveal.in {
 }
 
 .btn-ghost svg {
-  fill: var(--wa);
+  color: var(--wa);
 }
 
 /* ripple */
@@ -582,7 +579,7 @@ html.js .reveal.in {
 .b-feature .ic svg {
   width: 27px;
   height: 27px;
-  fill: #fff;
+  color: #fff;
 }
 
 .b-feature h3 {
@@ -620,7 +617,7 @@ html.js .reveal.in {
 .b-list li > svg {
   width: 20px;
   height: 20px;
-  fill: var(--wa);
+  color: var(--wa);
   flex-shrink: 0;
   margin-top: 3px;
 }
@@ -713,7 +710,7 @@ html.js .reveal.in {
 .step .circle svg {
   width: 36px;
   height: 36px;
-  fill: var(--wa);
+  color: var(--wa);
 }
 
 .step .num {
@@ -812,7 +809,7 @@ html.js .reveal.in {
 }
 
 .plan.popular li svg {
-  fill: #fff;
+  color: #fff;
 }
 
 .plan.popular .badge {
@@ -877,7 +874,7 @@ html.js .reveal.in {
 .plan li svg {
   width: 16px;
   height: 16px;
-  fill: var(--primary);
+  color: var(--primary);
   flex-shrink: 0;
 }
 

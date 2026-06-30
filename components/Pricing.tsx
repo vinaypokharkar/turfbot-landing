@@ -1,18 +1,5 @@
-function WaIcon() {
-  return (
-    <svg viewBox="0 0 24 24">
-      <path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24z" />
-    </svg>
-  )
-}
-
-function CheckIcon() {
-  return (
-    <svg viewBox="0 0 24 24">
-      <path d="M9 16.2l-3.5-3.5L4 14.2 9 19.2 20 8.2l-1.5-1.5z" />
-    </svg>
-  )
-}
+import { Check } from 'lucide-react'
+import WhatsAppIcon from './icons/WhatsAppIcon'
 
 export default function Pricing() {
   return (
@@ -35,20 +22,20 @@ export default function Pricing() {
             </div>
             <ul>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 WhatsApp redirect
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Manual slot sheet
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Up to 20 bookings/day
               </li>
             </ul>
             <a href="#contact" className="plan-cta">
-              <WaIcon />
+              <WhatsAppIcon aria-hidden="true" />
               Chat on WhatsApp
             </a>
           </div>
@@ -62,24 +49,24 @@ export default function Pricing() {
             </div>
             <ul>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Full WhatsApp bot
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Auto confirmations
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 UPI payment links
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Monthly booking reports
               </li>
             </ul>
             <a href="#contact" className="plan-cta">
-              <WaIcon />
+              <WhatsAppIcon aria-hidden="true" />
               Chat on WhatsApp
             </a>
           </div>
@@ -92,24 +79,24 @@ export default function Pricing() {
             </div>
             <ul>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Multi-turf management
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Priority support
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Tournament management
               </li>
               <li>
-                <CheckIcon />
+                <Check aria-hidden="true" />
                 Custom branding
               </li>
             </ul>
             <a href="#contact" className="plan-cta">
-              <WaIcon />
+              <WhatsAppIcon aria-hidden="true" />
               Chat on WhatsApp
             </a>
           </div>

@@ -40,10 +40,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`js ${archivo.variable}`}>
       <head>
-        <link
-          rel="icon"
-          href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231A6B3A'/%3E%3Cpath d='M8.5 10.5h15v3H18v9h-3.5v-9H8.5z' fill='%23fff'/%3E%3C/svg%3E"
-        />
         <link rel="preload" as="image" href="/hero.webp" />
       </head>
       <body>{children}</body>

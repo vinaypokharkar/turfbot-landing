@@ -20,6 +20,7 @@ export default function Navbar() {
     <>
       <nav className={`nav${scrolled ? ' scrolled' : ''}`} id="nav">
         <a href="#" className="logo">
+          <WhatsAppIcon aria-hidden="true" />
           TurfBook
         </a>
         <div className="links">

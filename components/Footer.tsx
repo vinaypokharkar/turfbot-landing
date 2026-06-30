@@ -6,7 +6,10 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot">
           <div>
-            <div className="logo">TurfBook</div>
+            <div className="logo">
+              <WhatsAppIcon aria-hidden="true" />
+              TurfBook
+            </div>
             <p className="desc">Automated WhatsApp booking system for turfs.</p>
           </div>
           <a href="#contact" className="foot-wa">
